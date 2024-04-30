@@ -1,62 +1,164 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja da mulher</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja da Mulher</title>
 
-    <link rel="apple-touch-icon" tamanhos="57x57" href="./assets/imagens/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" tamanhos="60x60" href="./assets/imagens/favicons/apple -icon-60x60.png">
-    <link rel="apple-touch-icon" tamanhos="72x72" href="./assets/imagens/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" tamanhos="76x76" href="./assets/imagens/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" tamanhos="114x114" href="./assets/imagens/favicons/apple-icon-114x114.png">
-    <link rel=" apple-touch-icon" tamanhos="120x120" href="./assets/imagens/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" tamanhos="144x144" href="./assets/imagens/favicons/apple-icon-144x144. png">
-    <link rel="apple-touch-icon" tamanhos="152x152" href="./assets/imagens/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" tamanhos="180x180" href="./assets/imagens/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" tamanhos="192x192" href="./assets/imagens/favicons/android-icon-192x192.png">
-    <link rel="icon" type="imagem/png" tamanhos="32x32" href="./assets/imagens/favicons/favicon-32x32.png">
-    <link rel="icon" type="imagem/png" tamanhos="96x96" href="./assets/imagens/favicons/favicon-96x96. png">
-    <link rel="icon" type="image/png" tamanhos="16x16" href="./assets/imagens/favicons/favicon-16x16.png">
-    <link rel="manifest" href="./assets/imagens/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#FFC107">
-    <meta name="msapplication-TileImage" content="./assets/imagens/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#FFC107">
-
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!-- favcons-->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/imagens/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/imagens/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/imagens/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/imagens/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/imagens/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/imagens/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/imagens/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/imagens/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/imagens/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/imagens/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/imagens/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/imagens/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/imagens/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./assets/imagens/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#FFC107">
+  <meta name="msapplication-TileImage" content="./assets/imagens/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#FFC107">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!--end favcons-->
 </head>
 
 <body>
+  <!--Header-->
+  <header class="container-fluid">
+    <!--Container-->
+    <section class="container">
+      <!--Row-->
+      <article class="row">
+        <!--Logo-->
+        <a href="/" class="col-md-2">
+          <img src="./assets/imagens/logo.svg" alt="Logo da Empresa - Moda da Mulher">
+        </a>
+        <!--Buscador-->
+        <form action="#" class="col-md-7">
+          <input type="text" name="" placeholder="Procurar Roupas aqui">
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+              viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+            </svg>
+          </button>
+        </form>
+        <!--Administrativo do Cliente-->
+        <ul class="col-md-3 nav">
+          <li class="nav-item">
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+              </svg>
+              Entrar
+            </a>
+          </li>
 
-    <header class="contanier-fluid">
-        <section class="container">
-            <article class="row">
-                <a href="/" class="col-md-2">
-                     <img src="./assets/imagens/logo.svg" alt="Logo da empresa - moda da mulher">
-                </a>
-
-                <form action="#" class="col-md-7">
-                    <input type="text" placeholder="Procurar roupas aqui">
-
-                    <button>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                            class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 
-                            1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                        </svg>
-
-                    </button>
-                </form>
+          <li class="nav-item">
+            <span class="notificacao"></span>
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+              </svg>
+              Carrinho
+            </a>
+          </li>
 
 
-            </article>
-        </section>
-    </header>
+        </ul>
+        <!--End Administrativo do Cliente-->
+      </article>
+      <!--End Row-->
+    </section>
+    <!--End Container-->
+  </header>
+  <!--End Header-->
 
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+  <!--menu do site-->
+  <nav class="container-fluid nav-produtos">
+    
+    <!--Container-->
+    <section class="container">
+
+      <!--Menu-->
+      <ul class="nav">
+        <li class="nav-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+          </svg>
+
+          Moda Feminina
+
+          <ul class="nav flex-column">
+            <li class="nav-item">Lançamentos</li>
+            <li class="nav-item">Plu size</li>
+            <li class="nav-item">Moda Praia</li>
+            <li class="nav-item">Acessorios</li>
+            <li class="nav-item">Promoção</li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+          </svg>
+          Calçados
+        </li>
+
+      </ul>
+      <!--End Menu-->
+
+    </section>
+    <!--End Container-->
+
+  </nav>
+  <!--End menu do site-->
+
+  <!--Banners-promocionais-->
+  <section id="Banners-promocionais" class="container carousel slide">
+     
+    <!--Imagens-->
+    <article class="carousel-inner">
+
+      <figure class="carousel-item active">
+         <img src="assets/imagens/banner-1.jpg" class="d-block w-100" alt="Banner-Promocional 1">
+      </figure>
+
+      <figure class="carousel-item">
+         <img src="assets/imagens/banner-2.jpg" class="d-block w-100" alt="Banner-Promocional 2">
+      </figure>
+
+    </article>
+  <!--End imagens-->
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#Banners-promocionais" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    
+    <button class="carousel-control-next" type="button" data-bs-target="#Banners-promocionais" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </section>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
