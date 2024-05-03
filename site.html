@@ -168,13 +168,13 @@
     <!--end banners promocionais-->
 
     <!--Banner Promocional com 6 colunas-->
-    <section class="container">
+    <section class="container banners-promocionais-statico">
       <!--Row-->
       <section class="row">
-
         <!--Banner-->
         <article class="col-md-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card"
+          <div class="container banners-promocionais-statico-12x d-flex align-itens-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card"
             viewBox="0 0 16 16">
             <path
               d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
@@ -186,12 +186,15 @@
               12x se juros
             </strong>
           </p>
+          </div>
+          
         </article>
         <!--end Banner-->
 
         <!--Banner-->
         <article class="col-md-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4"
+          <div class="container banners-promocionais-statico-todo-br d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4"
             viewBox="0 0 16 16">
             <path
               d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0" />
@@ -200,6 +203,8 @@
             Entrega para<br>
             <strong>todo Brasil</strong>
           </p>
+          </div>
+          
         </article>
         <!--end Banner-->
 
@@ -216,7 +221,6 @@
 
       <!--Listagem de Produtos-->
       <article class="row">
-
         <!--Cropped Rosa-->
         <section class="produtos col-md-3">
           <!--Imagem do produto-->
@@ -252,11 +256,11 @@
             <strong class="produtos-preco">
               R$ 59,90
             </strong>
-            <!-- end itens do produto-->
-
+            <!--End preço-->
+          
           </article>
+          <!--end listagem de produtos-->
         </section>
-        <!--End Cropped Rosa-->
 
         <!--Camiseta manga comprida-->
         <section class="produtos col-md-3">
@@ -305,9 +309,9 @@
 
           </article>
         </section>
-        <!--End camiseta manga comprida-->
+        <!--end camiseta manga comprida-->
 
-        <!--Camiseta Listrada-->
+        <!--Camiseta listrada-->
         <section class="produtos col-md-3">
           <!--Imagem do produto-->
           <img src="assets/imagens/camiseta-listrada.jpg" class="img-fluid " alt="Camiseta Listrada">
@@ -353,12 +357,12 @@
 
           </article>
         </section>
-        <!--End camiseta Listrada-->
+         <!--end camiseta listrada-->
 
         <!--Saia Plisada-->
         <section class="produtos col-md-3">
           <!--Imagem do produto-->
-          <img src="assets/imagens/saia-plisada.jpg" class="img-fluid " alt="Saia Plisada">
+          <img src="./assets/imagens/saia-plisada.jpg" class="img-fluid " alt="Saia Plisada">
           <!--itens do produto-->
           <article class="produtos-itens">
 
@@ -398,8 +402,7 @@
 
           </article>
         </section>
-         <!--Saia Plisada-->
-
+        <!--end saia Plisada-->
       </article>
       <!--End Listagem de Produtos-->
 
@@ -408,11 +411,104 @@
       </div>
     </section>
     <!-- end container produtos-->
-
-
-
   </main>
 
+  <footer class="containe-fluid">
+    <!--Container-->
+    <section class="container">
+      <!--Menu-->
+      <section class="row">
+
+        <!--Atendimento-->
+        <article class="col-md-3">
+          <h4>Atendimento</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="tel:+5561999999999">(61)9 9999-9999</a>
+            </li>
+            <li class="nav-item">
+              <a href="mailto:contato@sualoja.com.br">contato@sualoja.com.br</a>
+            </li>
+            <li class="nav-item">
+              Horario de Atendimento online: <br>
+              Segunda a sexta das 09:00 as 20:00
+            </li>
+          </ul>
+        </article>
+        <!--End Atendimento-->
+
+        <!--Acesso rapido-->
+        <article class="col-md-3">
+          <h4>Acesso rapido</h4>
+          <ul class="nav flex-column">
+           
+            <li class="nav-item">
+              <a href="#">Minha conta</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Meus pedidos</a>
+            </li>
+
+            <li class="nav-item">
+             <a href="#">Rastrear meus pedidos</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Troca e devoluções</a>
+             </li>
+
+          </ul>
+        </article>
+        <!--End acesso rapido-->
+        
+        <!--Institucional-->
+        <article class="col-md-3">
+          <h4>Institucional</h4>
+
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="#">sobre a loja</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#"></a>
+            </li>
+
+            <li class="nav-item">
+            <a href="#">Politicas de privacidade</a>
+            </li>
+
+          </ul>
+        </article>
+        <!--End Institucional-->
+
+        <!--Mais acessados-->
+        <article class="col-md-3">
+          <h4>Mais acessados</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="#">Cropped rosa</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Camiseta manga comprida</a>
+            </li>
+            <li class="nav-item">
+             <a href="#">Camiseta listrada</a>
+            </li>
+
+            <li>
+              <a href="#">Saia plisada</a>
+            </li>
+          </ul>
+        </article>
+        <!--End mais acessados-->
+
+      </section>
+      <!--End menu-->
+    </section>
+    <!--End container-->
+  </footer>
 
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
